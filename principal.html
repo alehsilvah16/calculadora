@@ -7,53 +7,87 @@
         <h1>Principal</h1>
         
         <a href="inicial.html">Voltar</a>
+
         <br/>
+        <br>
+        <div class="container">
+
+     
         <table border= "1" cellspacing="10" cellpadding="15" >
-            <tr>
-                <td>2</td>
-                <td>a</td>
-                <td>0</td>
-                <td>7</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>b</td>
-                <td>9</td>
-                <td>3</td>
-            </tr>
+            <div id="result-id">
+                <input type="text">
+                <p>Del</p>
+            </div>
             <tr>
                 <td>1</td>
                 <td>2</td>
                 <td>3</td>
-                <td>4</td>
+                <td>x</td>
+                
             </tr>
+            <tr>
+        
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>/</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>+</td>
+            </tr> 
+            <tr>
+                <td>0</td>
+                <td>.</td>
+                <td id="igual">=</td>
+                <td>-</td>
+            </tr>
+            
         </table>
-        <br>
-        <br>
-        <ul>
-            <li><b>Opção 01</b></li>
-            <li><b>Opção 02</b></li>
-            <li>
-                <a href="inicial.html"> Inicial</a>
-            </li>
-            <li><b>Opção 04</b></li>
-            <li><b>Opção 05</b></li>
-
-             </ul>
+    </div>
         <style>
-        h2{
-            color:red;
+        .container{
+            width: 216px;
+            
+            border: solid 2px black;
+            
+        }
+        #result-id{
+            
+            display: flex;
+            flex-wrap: nowrap;
+            
+        }
+        #result-id input{
+            padding-right: 20px;
+        }
+        #result td{
+            border: none;
         }
         table{
            
-         border:2px solid black;
+         
         }
         tr{
             border:2px solid red;
+            
+        }
+        tr td{
+            border-radius: 15px;
         }
         body{
             background: white;
         }
+
+        #igual{
+            background-color: rgb(84,144,254);
+            color: white;
+            
+        }
+        
+
         </style>
     </body>
 </html>
