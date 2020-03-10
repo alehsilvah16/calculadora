@@ -1,0 +1,46 @@
+#deletar{
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    
+
+}
+.container{
+width: 230px;
+margin: auto auto;
+border: solid 2px black;
+
+}
+#result-id{
+margin: 0;
+display: flex;
+flex-wrap: nowrap;
+
+}
+#result-id input{
+padding-right: 20px;
+}
+#result td{
+border: none;
+}
+table{
+display: block;
+margin: auto auto;
+
+}
+tr{
+border:2px solid red;
+
+}
+tr td{
+border-radius: 15px;
+}
+body{
+background: white;
+}
+
+#igual{
+background-color: rgb(84,144,254);
+color: white;
+
+}
